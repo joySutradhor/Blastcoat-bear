@@ -12,13 +12,13 @@ export default function Home() {
   return (
     <main className="bg-[#111]">
       <Navbar />
-      <HeroSection />
+      {/* <HeroSection />
       <WhyChooseUs/>
       <TrustSection/>
       <ServicesSection/>
       <GallerySection/>
       <TestimonialMarquee/>
-      <Footer/>
+      <Footer/> */}
     </main>
   );
 }

@@ -23,7 +23,7 @@ export default function Navbar() {
             About
           </Link>
           <Link href="#contact" className="text-white transition">
-            Contact
+            Contact Us
           </Link>
           <Link
             href="#quote"
