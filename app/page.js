@@ -11,7 +11,8 @@ import WhyChooseUs from "./_components/WhyChooseUs";
 export default function Home() {
   return (
     <main className="bg-[#111]">
-      <Navbar />
+      <h1>hello</h1>
+      {/* <Navbar /> */}
       {/* <HeroSection />
       <WhyChooseUs/>
       <TrustSection/>
