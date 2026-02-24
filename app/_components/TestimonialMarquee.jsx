@@ -72,6 +72,16 @@ export default function TestimonialMarquee() {
           </div>
         ))}
       </Marquee>
+
+      <div className="mt-[5vh] flex justify-center">
+        <a
+          href="https://share.google/j4Fps90m8AicaDJth"
+          target="_blank"
+          className="bg-[#FCA600] text-black  px-8 py-3 rounded-md font-medium uppercase tracking-wider transition"
+        >
+          See More Reviews
+        </a>
+      </div>
     </section>
   );
 }
