@@ -90,7 +90,7 @@ export default function ServicesSection() {
               <ul className="mt-8 space-y-4 text-gray-300">
                 <li className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-[#FCA600] rounded-full"></span>
-                  Low-pressure controlled process
+                  High-pressure controlled process
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-[#FCA600] rounded-full"></span>
