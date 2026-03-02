@@ -2,16 +2,20 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
+
   FaEnvelope,
   FaPhone,
+  FaFacebookF,
+  FaLinkedin,
+  FaPinterestP,
 } from "react-icons/fa";
+import { CiTwitter } from "react-icons/ci";
+
+
 
 const Footer = () => {
   return (
-    <footer className="border-t border-white/10 pt-12 pb-6 mt-[20vh]">
+    <footer className="border-t border-white/10 pt-12 pb-6 ">
       <div className="max-w-[80%] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Footer */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -56,8 +60,8 @@ const Footer = () => {
                 Shot Blasting
               </li>
               <li className="hover:text-[#FCA600] cursor-pointer">
-                Mobile Shot Blasting </li>
-           
+                Mobile Shot Blasting{" "}
+              </li>
             </ul>
           </div>
 
@@ -78,10 +82,46 @@ const Footer = () => {
             <p className="text-gray-400 mb-4">
               Stay connected on social media for updates and projects.
             </p>
-            <div className="flex space-x-4  leading-relaxed">
-              <FaFacebookF className="w-5 h-5 text-[#FCA600] cursor-pointer" />
-              <FaInstagram className="w-5 h-5 text-[#FCA600] cursor-pointer" />
-              <FaLinkedinIn className="w-5 h-5 text-[#FCA600] cursor-pointer" />
+            <div className="flex space-x-5 leading-relaxed">
+              <a
+                href="https://www.facebook.com/p/Blastcoatcouk-100063883396523/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Blastcoat Facebook"
+                className="text-[#FCA600] hover:text-white transition"
+              >
+                <FaFacebookF className="w-5 h-5" />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/company/blast-coat"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Blastcoat LinkedIn"
+                className="text-[#FCA600] hover:text-white transition"
+              >
+                <FaLinkedin className="w-5 h-5" />
+              </a>
+
+              <a
+                href="https://uk.pinterest.com/blastcoatonline/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Blastcoat Pinterest"
+                className="text-[#FCA600] hover:text-white transition"
+              >
+                <FaPinterestP className="w-5 h-5" />
+              </a>
+
+              <a
+                href="https://x.com/blast_coat"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Blastcoat X"
+                className="text-[#FCA600] hover:text-white transition"
+              >
+                <CiTwitter  className="w-5 h-5" />
+              </a>
             </div>
           </div>
         </div>
