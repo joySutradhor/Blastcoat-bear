@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 export default function ServicesSection() {
   return (
     <section className=" text-white " id="services">
-      <div className="max-w-[80%] mx-auto px-6 pt-[20vh]">
+      <div className="max-w-[95%] lg:max-w-[80%] mx-auto px-6 pt-[15vh] lg:pt-[20vh]">
         {/* Section Heading */}
         <div className="text-center mb-20 max-w-3xl mx-auto">
           <span className="text-sm uppercase tracking-[3px] text-[#FCA600] font-semibold">
@@ -62,7 +62,7 @@ export default function ServicesSection() {
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-[#FCA600] rounded-full"></span>
-                  Industrial and architectural applications
+                  Serving  commercial and domestic industries
                 </li>
               </ul>
 

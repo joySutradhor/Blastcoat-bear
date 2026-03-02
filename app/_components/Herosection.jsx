@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="relative w-full h-screen flex items-center justify-center text-white overflow-hidden">
+    <section className="relative w-full min-h-screen flex items-center justify-center text-white overflow-hidden">
       {/* Background Video */}
       <video
         autoPlay
@@ -19,9 +19,9 @@ export default function HeroSection() {
       <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-t from-black to-transparent"></div>
 
       {/* Content */}
-      <div className="relative z-10   px-6">
+      <div className="relative z-10   px-6  py-28 lg:py-40">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
+          <h1 className="text-3xl md:text-4xl xl:text-6xl font-bold leading-tight mb-6">
             Professional Surface Preparation & Finishing
           </h1>
 

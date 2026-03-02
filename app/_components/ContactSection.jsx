@@ -34,9 +34,9 @@ const ContactSection = () => {
 
   return (
     <section className="   " id="contact">
-      <div className="max-w-[80%] mx-auto  py-[20vh]">
+      <div className="max-w-[95%] lg:max-w-[80%] mx-auto  py-[20vh]">
         {/* Top Section */}
-        <div className="grid lg:grid-cols-2 items-center py-10 px-20 hover:shadow shadow-[#FCA600] gap-20 border border-white/10 rounded-2xl text-white">
+        <div className="grid xl:grid-cols-2 items-center py-10 px-5 md:px-10 lg:px-20 hover:shadow shadow-[#FCA600] gap-20 border border-white/10 rounded-2xl text-white">
           {/* Contact Info */}
           <div className="">
             {/* <div>
@@ -62,7 +62,7 @@ const ContactSection = () => {
               ></iframe>
             </div>
 
-            <div className="grid grid-cols-2 mt-5 gap-5 ">
+            <div className="grid xl:grid-cols-2 mt-5 gap-5 ">
               <p className="flex items-center gap-2 text-gray-400 mb-2 py-2 px-4 rounded-xl border border-[#FCA600]">
                 <FaPhone className="text-[#FCA600]" /> 01494 772066
               </p>
@@ -89,7 +89,7 @@ const ContactSection = () => {
           </div>
           {/* Contact Form */}
           <div>
-            <h3 className="text-2xl md:text-3xl font-bold mb-8 mt-16">
+            <h3 className="text-2xl md:text-3xl font-bold mb-8 mt-0 lg:mt-16">
               Get In <span className="text-[#FCA600]">Touch</span>
             </h3>
             <form onSubmit={handleSubmit} className="space-y-5">

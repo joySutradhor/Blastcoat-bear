@@ -16,7 +16,7 @@ import { CiTwitter } from "react-icons/ci";
 const Footer = () => {
   return (
     <footer className="border-t border-white/10 pt-12 pb-6 ">
-      <div className="max-w-[80%] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[95%] lg:max-w-[80%] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Footer */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Contact Info */}
@@ -127,8 +127,14 @@ const Footer = () => {
         </div>
 
         {/* Bottom Footer */}
-        <div className="mt-10 border-t border-gray-700 pt-6 text-center text-gray-500 text-sm">
-          © {new Date().getFullYear()} Blast Coat UK. All Rights Reserved.
+        <div className="mt-10 border-t border-gray-700 pt-6 text-center text-gray-100 text-base font-medium">
+          © {new Date().getFullYear()} Blast Coat UK. All Rights Reserved. Developed by{" "}
+          <a
+            href="http://resolveidea.com/"  target="_blank"
+            className="text-[#FCA600] hover:text-white transition underline"
+          >
+            Resolve Idea
+          </a>
         </div>
       </div>
     </footer>

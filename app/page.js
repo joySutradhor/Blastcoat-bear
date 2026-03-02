@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ContactSection from "./_components/ContactSection";
 import Footer from "./_components/Footer";
 import GallerySection from "./_components/GallerySection";
@@ -16,9 +17,18 @@ export default function Home() {
       <WhyChooseUs />
       <TrustSection />
       <ServicesSection />
-      <GallerySection />
+      <div>
+        <GallerySection limit={6} />
+        <div className="text-center mt-12">
+          <Link href="/blastcoat-works-near-me" className="inline-block">
+            <button className="bg-[#FCA600] text-black px-6 py-3 rounded-md font-semibold hover:bg-yellow-500 transition cursor-pointer">
+              View All Projects
+            </button>
+          </Link>
+        </div>
+      </div>
       <TestimonialMarquee />
-      <ContactSection/>
+      <ContactSection />
       <Footer />
     </main>
   );

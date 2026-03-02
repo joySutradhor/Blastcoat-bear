@@ -5,24 +5,24 @@ import { FaStar } from "react-icons/fa";
 
 const testimonials = [
   {
-    name: "James R.",
+    name: "Paul Wooding",
     review:
-      "Outstanding powder coating finish. Professional team, completed on time and exceeded expectations.",
+      "Thank you very much to Bear and the team for an outstanding job on my car parts. All aluminium parts which were stripped and recoated. Excellent turn around time and finished articles look as good as new. Great service from a lovely bunch of blokes. Will be back and highly recommend.",
   },
   {
-    name: "Sarah L.",
+    name: "Inco Gnito",
     review:
-      "Shot blasting was done with precision and care. Clean site afterwards and excellent communication.",
+      "Great service. Not the biggest job, I needed one cast aluminium garden chair re-coating. Ahead of any work being done finish, colour and what could be achieved were set. On collection all was exactly as expected. What else would you want. Oh yeah, personality, Bear has it.",
   },
   {
-    name: "Michael T.",
+    name: "Carol Dyble",
     review:
-      "Reliable industrial service with attention to detail. Highly recommended for structural steel projects.",
+      "We contacted Blast Coat to have our garden table and chairs sand blasted and power coated. Bear was extremely helpful and completed it beautifully in 3 days. All the staff were so helpful and we thoroughly recommend them.",
   },
   {
-    name: "Daniel W.",
+    name: "Leslie Eames",
     review:
-      "From preparation to final clean-up, everything was handled professionally. Five-star service.",
+      "Blastcoat is a small fabrication an powder coating specialist. The service provided and quality of work is truly excellent.If this is the sort of product or service you need I thoroughly recommend a visit is made to their tucked away semi rural premises.",
   },
 ];
 
@@ -53,7 +53,7 @@ export default function TestimonialMarquee() {
         {testimonials.map((item, index) => (
           <div
             key={index}
-            className="mx-2 min-w-[320px] md:w-[25vw] bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-sm hover:border-[#FCA600] transition"
+            className="mx-2 w-[80vw] md:w-[30vw] xl:w-[25vw] bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-sm hover:border-[#FCA600] transition"
           >
             {/* Stars */}
             <div className="flex gap-1 text-[#FCA600] mb-4">

@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed w-full z-50 bg-black/70 backdrop-blur-md border-b border-white/10">
-      <div className="max-w-[80%] mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-[95%] xl:max-w-[80%] mx-auto md:px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link
           href="/"
@@ -19,11 +19,12 @@ export default function Navbar() {
             alt="Blastcoat Logo"
             width={150}
             height={30}
+            className="w-[20vw] md:w-[7vw]"
           />
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-8 text-base font-medium uppercase tracking-wider text-white">
+        <div className="hidden lg:flex items-center space-x-8 text-base font-medium uppercase tracking-wider text-white">
           <Link href="#about" className="block">
             About
           </Link>
@@ -49,7 +50,7 @@ export default function Navbar() {
 
         {/* Mobile Toggle */}
         <button
-          className="md:hidden text-white"
+          className="lg:hidden text-white"
           onClick={() => setIsOpen(!isOpen)}
         >
           ☰
@@ -58,7 +59,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-black/95 text-white px-6 py-6 space-y-4 uppercase text-sm">
+        <div className="lg:hidden bg-black/95 text-white px-6 py-6 space-y-4 uppercase text-sm">
           <Link href="#about" className="block">
             About
           </Link>
@@ -68,7 +69,7 @@ export default function Navbar() {
           <Link href="#works" className="block">
             Our Works
           </Link>
-          <div>
+          <div className="my-10">
             <a
               href="https://wa.me/447957650348?text=Hello%20I%20would%20like%20to%20know%20more%20about%20your%20services."
               target="_blank"
