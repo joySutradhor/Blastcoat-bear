@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import {
   FaFacebookF,
@@ -10,17 +12,30 @@ import {
 const Footer = () => {
   return (
     <footer className="border-t border-white/10 pt-12 pb-6 mt-[20vh]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[80%] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Footer */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Contact Info */}
           <div>
-            <h3 className="text-white text-xl font-bold mb-4">Blast Coat in UK</h3>
-            <p className="text-gray-400 leading-relaxed mb-2">
+            <Link
+              href="/"
+              className="text-white text-2xl font-semibold tracking-wide "
+            >
+              <Image
+                src="/blastcoat.png"
+                alt="Blastcoat Logo"
+                width={150}
+                height={30}
+              />
+            </Link>
+            <p className="text-gray-400 leading-relaxed mb-2 mt-10">
               Premier specialist in shot blasting & powder coating services.
             </p>
             <p className="flex items-center gap-2 text-gray-400 mb-2">
               <FaPhone className="text-[#FCA600]" /> 01494 772066
+            </p>
+            <p className="flex items-center gap-2 text-gray-400 mb-2">
+              <FaPhone className="text-[#FCA600]" /> 07957 650348
             </p>
             <p className="flex items-center gap-2 text-gray-400 mb-2">
               <FaEnvelope className="text-[#FCA600]" /> info@blastcoat.co.uk
@@ -41,11 +56,8 @@ const Footer = () => {
                 Shot Blasting
               </li>
               <li className="hover:text-[#FCA600] cursor-pointer">
-                Metal Restoration
-              </li>
-              <li className="hover:text-[#FCA600] cursor-pointer">
-                Custom Finishes
-              </li>
+                Mobile Shot Blasting </li>
+           
             </ul>
           </div>
 

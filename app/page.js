@@ -1,3 +1,4 @@
+import ContactSection from "./_components/ContactSection";
 import Footer from "./_components/Footer";
 import GallerySection from "./_components/GallerySection";
 import HeroSection from "./_components/Herosection";
@@ -17,6 +18,7 @@ export default function Home() {
       <ServicesSection />
       <GallerySection />
       <TestimonialMarquee />
+      <ContactSection/>
       <Footer />
     </main>
   );

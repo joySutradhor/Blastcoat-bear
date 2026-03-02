@@ -9,8 +9,8 @@ import { GiHammerNails } from "react-icons/gi";
 
 export default function WhyChooseUs() {
   return (
-    <section className="mt-[20vh] text-white">
-      <div className="max-w-[80%] mx-auto px-6">
+    <section className=" text-white" id="about">
+      <div className="max-w-[80%] mx-auto px-6 pt-[20vh]">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-20">
           <span className="text-sm uppercase tracking-[3px] text-[#FCA600] font-semibold">

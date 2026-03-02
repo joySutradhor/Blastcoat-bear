@@ -17,8 +17,8 @@ export default function GallerySection() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <section className=" text-white mt-[20vh]">
-      <div className="max-w-[80%] mx-auto px-6">
+    <section className=" text-white " id="works">
+      <div className="max-w-[80%] mx-auto px-6 pt-[20vh]">
 
         {/* Section Heading */}
         <div className="text-center mb-16 max-w-3xl mx-auto">
